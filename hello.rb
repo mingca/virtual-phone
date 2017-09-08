@@ -22,5 +22,5 @@ get '/incoming-sms' do
 	              :authentication       => :plain, 
 	              :domain               => "virtual-phone-test.herokuapp.com" 
 	            } 
-})
+	
 end
