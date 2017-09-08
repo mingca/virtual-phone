@@ -18,7 +18,7 @@ get '/incoming-sms' do
 	              :address              => 'smtp.gmail.com',
 	              :port                 => '587',
 	              :user_name                 => 'joellejmaze918',
-	              :password             => 'strongman',
+	              :password             => 'strongman12345',
 	              :authentication       => :plain, 
 	              :domain               => "virtual-phone-test.herokuapp.com" 
 	            } 
