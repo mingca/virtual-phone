@@ -15,10 +15,10 @@ get '/incoming-sms' do
 	          :body =>  params['text'],
 	          :via => :smtp,
 	          :via_options => {
-	              :address              => 'smtp.gmail.com',
+	              :address              => 'smtp.sendgrid.net',
 	              :port                 => '587',
-	              :user_name                 => 'joellejmaze918',
-	              :password             => 'strongman12345',
+	              :user_name                 => 'app5314159@heroku.com',
+	              :password             => 'x95avl8s2995',
 	              :authentication       => :plain, 
 	              :domain               => "virtual-phone-test.herokuapp.com" 
 	            } 
